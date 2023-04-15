@@ -1,0 +1,89 @@
+@media screen {
+  .client-wrapper {
+    gap: 20px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    padding: 20px 5px;
+    flex-direction: column;
+    background-color: var(--light-color);
+  }
+
+  .client-h h1 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+
+  .client-info {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  .info-wrap {
+    gap: 10px;
+    min-width: 60%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-wrap h1 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .info-wrap h4 {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .client-wrapper {
+    gap: 20px;
+    height: 30%;
+    padding: 40px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--light-color);
+  }
+
+  .client-h h1 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+
+  .client-info {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-wrap {
+    gap: 10px;
+    width: 50%;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-wrap h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .info-wrap h4 {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}

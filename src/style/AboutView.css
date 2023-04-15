@@ -1,0 +1,178 @@
+@media screen {
+  .Abt-contain {
+    gap: 30px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .Abt-contain h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .abt-p1 {
+    flex: 100%;
+  }
+
+  .abt-img1 {
+    height: 400px;
+  }
+
+  .ceo-info {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .ceo-info h2 {
+    gap: 10px;
+    font-weight: 600;
+    font-size: .9rem;
+
+  }
+
+  .ceo-info h2 span {
+    color: var(--tiary-color);
+  }
+
+  .abt-p2 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .abt-p2 p {
+    text-align: center;
+  }
+
+  .abt-info1 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inf-h {
+    gap: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .inf-h h1 {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+
+  .abt-p2 {
+    flex: 100%;
+  }
+
+  .abt-img2 {
+    height: 400px;
+  }
+
+  .abt-info2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .abt-img2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info2-d {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .info2-d h1 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }
+
+  .info2-dd {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .Abt-contain {
+    gap: 0;
+    padding: 50px;
+    text-align: start;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .abt-p1 {
+    flex: 40%;
+  }
+
+  .ceo-info {
+    gap: 5px;
+    align-items: start;
+
+  }
+
+  .ceo-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .abt-p2 p {
+    text-align: start;
+  }
+
+
+  .inf-h {
+    text-align: start;
+    align-items: start;
+  }
+
+  .abt-p2 {
+    flex: 60%;
+  }
+
+
+  .abt-info2 {
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .abt-img2 {
+    width:auto;
+    height: 300px;
+  }
+
+  .info2-d {
+    width:fit-content;
+    text-align: start;
+    align-items: start;
+  }
+
+}

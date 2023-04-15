@@ -1,0 +1,117 @@
+@media screen {
+  .service-container {
+    gap: 30px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/image/back.png');
+  }
+
+  .service-h h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+
+  .service-card-wrapper {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 100%;
+    height: 410px;
+    border-radius: 12px;
+    box-shadow: var(--drop-shadow);
+    background-color: var(--background-color);
+  }
+
+  .card-image {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+    background-position: center center;
+  }
+
+  .card-detail {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    font-size: .8rem;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 8px 0 0 0;
+    justify-content: center;
+    color: var(--background-color);
+    background-color: var(--tiary-color);
+  }
+
+  .card-info {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .card-info h1 {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .card-info p {
+    font-size: .9rem;
+    text-align: center;
+
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .service-container {
+    padding: 50px;
+  }
+
+  .service-h h1 {
+    text-align: start;
+  }
+
+  .service-card-wrapper {
+    gap: 20px;
+  }
+
+  .service-card {
+    width: 350px;
+    height: 400px;
+  }
+
+  .card-image {
+    height: 200px;
+  }
+
+  .card-detail {
+    width: 130px;
+    height: 30px;
+  }
+
+  .card-info h1 {
+    text-align: start;
+  }
+
+  .card-info p {
+    text-align: start;
+
+}
+}

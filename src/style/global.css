@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@media screen {
+  * {
+    /* default-colors  */
+    --text-color: rgb(0, 0, 0);
+    --tiary-color: hsl(119, 95%, 38%);
+    --primary-color: rgb(30, 30, 235);
+    --secondary-color: rgb(255, 0, 0);
+    --light-color: rgb(245, 245, 245);
+    --background-color: rgb(255, 255, 255);
+    --drop-shadow: -3px 5px 15px rgb(201, 201, 201);
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+  }
+
+  .app-y {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  input {
+    outline: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+
+  button {
+    border: none;
+    outline: none;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

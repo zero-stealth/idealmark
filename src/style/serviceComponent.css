@@ -1,0 +1,52 @@
+@media screen {
+  .s-component {
+    gap: 10px;
+    height: 30%;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    align-items: start;
+    justify-content: start;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  .s-component-wrapper {
+    gap: 10px;
+    width: 200px;
+    height: 150px;
+    min-width: 200px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--background-color);
+  }
+
+  .s-component-wrapper h1 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .s-component-wrapper p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .s-icon-comp {
+    height: 40px;
+    width: 40px;
+    fill: var(--background-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .s-component {
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

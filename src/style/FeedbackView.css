@@ -1,0 +1,94 @@
+@media screen {
+  .feed-component {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .feed-h {
+    width: 100%;
+    display: flex;
+    padding: 20px 40px;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .feed-h h1 {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+
+  .feed-card {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    box-shadow: var(--drop-shadow);
+    background-color: var(--background-color);
+  }
+
+  .feed-info {
+    gap: 10px;
+    flex: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .feedback-msg {
+    width: 100%;
+    height: 80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(201, 201, 201);
+  }
+
+  .btn-feed {
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 12px;
+    color: var(--background-color);
+    background-color: var(--tiary-color);
+  }
+
+  .feed-img {
+    flex: 40%;
+    background-size: cover;
+    border-radius: 0 0 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../assets/image/feddback.png');
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .feed-h h1 {
+    text-align: start;
+  }
+
+  .feed-card {
+    width: 80%;
+    flex-direction: row;
+  }
+
+  .btn-feed {
+    height: 15%;
+  }
+
+  .feed-img {
+    flex: 50%;
+    border-radius: 0 12px 12px 0;
+  }
+}

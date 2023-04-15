@@ -1,0 +1,228 @@
+@media screen {
+  .ideal-container {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .ideal-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .part-container {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ideal-info {
+    flex: 100%;
+  }
+
+  .P-ia {
+    gap: 10px;
+    width: 200px;
+    display: flex;
+    height: 80px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--drop-shadow);
+    background-color: var(--background-color);
+  }
+
+  .top-left {
+    top: 50px;
+    right: 110px;
+    position: relative;
+  }
+
+  .bottom-right {
+    bottom: 50px;
+    left: 110px;
+    position: relative;
+  }
+
+  .ideal-icon {
+    height: 30px;
+    width: 30px;
+    fill: var(--secondary-color);
+  }
+
+  .p-ia-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-ia-info h1 {
+    font-size: 1rem;
+  }
+
+  .p-ia-info span {
+    font-size: .6rem;
+    font-weight: 100;
+  }
+
+  .ideal-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .ideal-info {
+    gap: 30px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .ideal-info1 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+/* 
+.ideal-info1 p {
+    text-align: center;
+} */
+  .ideal-info1 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .ideal-info1 h2 {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--tiary-color);
+  }
+
+  .ideal-info1 span {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .ideal-info2 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ideal-info2 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .ideal-part2 {
+    gap: 12px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .ideal-part2 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    
+      .ideal-part {
+        flex-direction: row;
+      }
+    
+    
+      .ideal-info {
+        flex: 50%;
+      }
+    
+      .P-ia {
+        gap: 20px;
+        width: 250px;
+      }
+    
+      .top-left {
+        right: 200px;
+      }
+    
+      .bottom-right {
+        left: 200px;
+      }
+    
+      .ideal-icon {
+        height: 50px;
+        width: 50px;
+      }
+
+    
+      .p-ia-info h1 {
+        font-size: 2rem;
+      }
+    
+      .p-ia-info span {
+        font-size: .8rem;
+      }
+    
+      .ideal-img {
+        width: 550px;
+        height: 500px;
+      }
+    
+    
+      .ideal-info1 p {
+        text-align: start;
+    }
+    
+      .ideal-info1 h1 {
+        text-align: start;
+      }
+    
+      .ideal-info1 h2 {
+        font-size: 1.2rem;
+        text-align: start;
+        font-style: italic;
+      }
+
+      .ideal-info2 {
+        gap: 5px;
+        text-align: start;
+      }
+    
+      .ideal-info2 h1 {
+        text-align: start;
+      }
+    
+      .ideal-part2 {
+        text-align: start;
+        padding-left: 60px;
+        padding-bottom: 50px;
+      }
+    
+      .ideal-part2 h1 {
+        text-align: start;
+      }
+    
+    .ideal-part2 li{
+        width: 90%;
+    
+    } 
+}
