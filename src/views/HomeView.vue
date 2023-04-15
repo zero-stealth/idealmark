@@ -112,7 +112,7 @@ const showMenu = () => {
         </h1>
       </div>
       <div class="hero-btn">
-        <a class="btn btn-services" href="#Service">
+        <a class="btn btn-services" href="#Services">
           Our Service
           <arrowIcon class="arrow-i" />
         </a>
