@@ -12,6 +12,12 @@ const booknow = ref(null)
 const errMessage = ref()
 const phoneNumber = ref('+254722928160')
 
+
+const openWhatsapp = () => {
+  window.open('https://wa.me/+254722928160?text=How can i help',
+      '_blank')
+}
+
 const book = () => {
   if (booknow.value != null) {
     window.open(
@@ -35,7 +41,7 @@ const reset = () => {
     <div class="contact-wrapper">
       <div class="contact-d1">
         <h1>Contact information</h1>
-        <p>If you have any questions or need help, feel free to contact with our team.</p>
+        <p>For queries or help, please feel free to contact us on:-</p>
         <div class="d1-contact">
           <div class="d1-icon">
             <phoneIcon class="icon-d1" />
@@ -80,7 +86,7 @@ const reset = () => {
           Social media:
           <facebookIcon class="bk-icon" />
           <twitterIcon class="bk-icon" />
-          <whatsappIcon class="bk-icon" />
+          <whatsappIcon class="bk-icon" @click="openWhatsapp"/>
           <instagramIcon class="bk-icon" />
         </div>
       </div>

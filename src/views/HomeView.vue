@@ -20,7 +20,8 @@ import facebookIcon from '../components/icons/facebook.vue'
 
 const isOpen = ref(false)
 const openWhatsapp = () => {
-  window.location.href = ''
+  window.open('https://wa.me/+254722928160?text=How can i help',
+      '_blank')
 }
 
 const openFacebook = () => {
@@ -113,7 +114,7 @@ const showMenu = () => {
       </div>
       <div class="hero-btn">
         <a class="btn btn-services" href="#Services">
-          Our Service
+          Our Services
           <arrowIcon class="arrow-i" />
         </a>
         <a class="btn btn-touch" href="#Contact">
